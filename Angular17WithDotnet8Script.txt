@@ -4191,3 +4191,34 @@ export class ProductService {
 
 }
 
+-------------------------------------------------------
+⚡ DAY 9
+18: Workshop Store in Angular 17
+-------------------------------------------------------
+Step 1: สร้าง Dialog สำรหรับเพิ่มสินค้าใหม่
+---
+ng g c components/createProductDialog --skip-tests
+
+Step 2: ติดตั้ง library สำหรับการ Export PDF ไฟล์
+---
+npm i jspdf@2.5.1
+npm i jspdf-autotable@3.8.2
+
+
+Step 3: ติดตั้ง libraly สำหรับทำ full calendar
+---
+npm install @fullcalendar/core
+npm install @fullcalendar/angular
+npm install @fullcalendar/daygrid
+npm install @fullcalendar/timegrid
+npm install @fullcalendar/interaction
+
+
+
+
+
+
+
+
+
+
